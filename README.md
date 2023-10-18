@@ -1,4 +1,4 @@
-# Project: Algorithm Design (Group 2)  
+# Algorithm Design Project (Group 2)  
 Group members: 
 Camille, Magdalena, and Sandra 
 
