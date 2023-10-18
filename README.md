@@ -1,4 +1,4 @@
-# Datalogical Thinking: Project - Algorithm Design (group 2) 
+# Datalogical Thinking: Project Algorithm Design (group 2) 
 Group members: 
 Camille, Magdalena, and Sandra 
 
