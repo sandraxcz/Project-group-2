@@ -11,6 +11,7 @@ The first step for this project would be to brainstorm with your teammates to de
 1. Finding or conceptualising an interesting dataset
 2. Defining a specific problem or need for the data, that can be resolved algorithmically
 3. Modelling (or fine-tuning the pre-existing model of) your data in a way that it becomes relevant for your algorithm
+   
 **This process involves discussing questions such as**: 
 - Where would you find the data you want to work with? Or would you need to collect or fabricate the data yourself?
 - In what format is the data available? Can we work with this format in our algorithm?
