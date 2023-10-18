@@ -21,7 +21,8 @@ If you are starting from pre-existing data, this means: understanding what kind 
 
 ### Step 2 of the Assignment: Curate Your Dataset
 Once you know how your data should be modelled, you can put it into practice. If you are collecting your own data: map it onto your data model. If you are starting from a dataset developed by others: clean the dataset and make relevant changes to the way it is modelled. The result of this step is that you will have a dataset that your algorithm can work with.
- *TIP: You can use a validator (like this one by the World Wide Web Consortium.) to check whether or not your XML is well-formed. And you can open your .csv file in any spreadsheet software (e.g. MS Excel, or Numbers) to check if they visualise your tables (rows / columns) correctly (to make sure you did not miss any comma’s, etc.).*
+
+ *TIP: You can use a validator (e.g. World Wide Web Consortium.) to check whether or not your XML is well-formed. And you can open your .csv file in any spreadsheet software (e.g. MS Excel, or Numbers) to check if they visualise your tables (rows / columns) correctly (to make sure you did not miss any comma’s, etc.).*
 
 ### Step 3 of the Assignment: Design Your Algorithm
 Now that you have your dataset, you can start to process it. This is where your algorithm comes in. Using pseudocode, write out the different steps that are necessary to accomplish the task you have set out.
