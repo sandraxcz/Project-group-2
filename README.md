@@ -5,7 +5,7 @@ Camille, Magdalena, and Sandra
 ## About the Assignment
 The general idea for this assignment is that you work together in a group to curate a dataset, and design an algorithm to process that dataset in a meaningful way. You will publish both your dataset and your algorithm design on GitHub, alongside a simple website with some basic information on the project, dataset and algorithm, that will be hosted with GitHub Pages.
 
-### Step 1 of the Assignment: Conceptualisation
+### Step 1 of the Assignment: Conceptualisation (https://github.com/sandraxcz/Project-group-2/issues/4) 
 The first step for this project would be to brainstorm with your teammates to decide what kind of data you would be interested in, and what you would like to be able to do with that data. This includes:
 
 1. Finding or conceptualising an interesting dataset
@@ -25,18 +25,18 @@ For example: if you were designing an algorithm that maps out a citation network
 
 If you are starting from pre-existing data, this means: understanding what kind of information it contains, and how it is structured. If you are developing your own dataset, this means conceptualising your own model to map your data onto (as you did, for example, in Assignment 1). You may also want to do a little of both: use pre-existing data, but make some changes to the way it is structured (or the information it contains) that makes it easier for your algorithm to access the information you need.
 
-### Step 2 of the Assignment: Curate Your Dataset
+### Step 2 of the Assignment: Curate Your Dataset (https://github.com/sandraxcz/Project-group-2/issues/5)
 Once you know how your data should be modelled, you can put it into practice. If you are collecting your own data: map it onto your data model. If you are starting from a dataset developed by others: clean the dataset and make relevant changes to the way it is modelled. The result of this step is that you will have a dataset that your algorithm can work with.
 
  *TIP: validator (e.g. World Wide Web Consortium.) to check whether or not your XML is well-formed. And you can open your .csv file in any spreadsheet software (e.g. MS Excel, or Numbers) to check if they visualise your tables (rows / columns) correctly (to make sure you did not miss any comma’s, etc.).*
 
-### Step 3 of the Assignment: Design Your Algorithm
+### Step 3 of the Assignment: Design Your Algorithm (https://github.com/sandraxcz/Project-group-2/issues/6) 
 Now that you have your dataset, you can start to process it. This is where your algorithm comes in. Using pseudocode, write out the different steps that are necessary to accomplish the task you have set out.
 
-### Step 4 of the Assignment: Design a Small Website for Your Project
+### Step 4 of the Assignment: Design a Small Website for Your Project (https://github.com/sandraxcz/Project-group-2/issues/7) 
 Using HTML and CSS, design a small website, distributed over a few relevant hyperlinked web pages, to contextualise your algorithm. This website should contain some general information about the project/assignment, a description of the dataset, a description of the algorithm, and more information about your team, and the division of labor.
 
-### Step 5 of the Assignment: Publish Your Dataset, Algorithm, and Website on GitHub**
+### Step 5 of the Assignment: Publish Your Dataset, Algorithm, and Website on GitHub** (https://github.com/sandraxcz/Project-group-2/issues/)
 Bundle all of the work you did for Steps 2 through 4 together in a single repository that you post on GitHub. A template for this repository will be provided during the class on GitHub. Make your website publicly accessible by publishing it using GitHub Pages. Information on how to do this will also be provided during the class on GitHub.
 
 ## About the Course
