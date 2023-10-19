@@ -1,2 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sample>data</sample>
+<bookList>
+    <books genre="Fantasy">
+        <book>
+            <title>The Name of the Wind</title>
+            <author>Patrick Rothfuss</author>
+        </book>
+        <book>
+            <title>A Game of Thrones</title>
+            <author>George R. R. Martin</author>
+        </book>
+        <book>
+            <title>The Fifth Season</title>
+            <author>N. K. Jemisin</author>
+        </book>
+        <book>
+            <title>The Way of Kings</title>
+            <author>Brandon Sanderson</author>
+        </book>
+        <book>
+            <title>Howl's Moving Castle</title>
+            <author>Diana Wynne Jones</author>
+        </book>
+    </books>
+    <books genre="Science Fiction">
+        <book>
+            <title>Frankenstein</title>
+            <author>Mary Shelley</author>
+        </book>
+        <book>
+            <title>The Hitchhiker's Guide to the Galaxy</title>
+            <author>Douglas Adams</author>
+        </book>
+        <book>
+            <title>Neuromancer</title>
+            <author>William Gibson</author>
+        </book>
+        <book>
+            <title>The Three-body Problem</title>
+            <author>Liu Cixin</author>
+        </book>
+        <book>
+            <title>Do Android Dream of Electric Sheep?</title>
+            <author>Philip K. Dick</author>
+        </book>
+    </books>
+    <books genre="Mystery">
+        <book>
+            <title>Gone Girl</title>
+            <author>Gillian Flynn</author>
+        </book>
+        <book>
+            <title>The Girl with the Dragon Tattoo</title>
+            <author>Stieg Larsson</author>
+        </book>
+        <book>
+            <title>In the Woods</title>
+            <author>Tata French</author>
+        </book>
+        <book>
+            <title>Big Little Lies</title>
+            <author>Liane Moriarty</author>
+        </book>
+        <book>
+            <title>The Woman in White</title>
+            <author>Wilkie Collins</author>
+        </book>
+    </books>
+    <books genre="Romance">
+        <book>
+            <title>Pride and Prejudice</title>
+            <author>Jane Austin</author>
+        </book>
+        <book>
+            <title>Beach Read</title>
+            <author>Emily Henry</author>
+        </book>
+        <book>
+            <title>Red, White and Royal Blue</title>
+            <author>Casey McQuiston</author>
+        </book>
+        <book>
+            <title>The Love Hypothesis</title>
+            <author>Ali Hazelwood</author>
+        </book>
+        <book>
+            <title>The Notebook</title>
+            <author>Nicholas Sparks</author>
+        </book>
+    </books>
+    <books genre="Horror">
+        <book>
+            <title>Dracula</title>
+            <author>Bram Stoker</author>
+        </book>
+        <book>
+            <title>The Shining</title>
+            <author>Stephen King</author>
+        </book>
+        <book>
+            <title>The Hunger</title>
+            <author>Alma Katsu</author>
+        </book>
+        <book>
+            <title>Let the Right One In</title>
+            <author>John Ajvide Lindqvist</author>
+        </book>
+        <book>
+            <title>Coraline</title>
+            <author>Neil Gaiman</author>
+        </book>
+    </books>
+    <books genre="Adventure">
+        <book>
+            <title>Robinson Crusoe</title>
+            <author>Daniel Defoe</author>
+        </book>
+        <book>
+            <title>Into the Wild</title>
+            <author>Jon Krakauer</author>
+        </book>
+        <book>
+            <title>The Three Musketeers</title>
+            <author>Alexandre Dumas</author>
+        </book>
+        <book>
+            <title>The Martian</title>
+            <author>Andy Weir</author>
+        </book>
+        <book>
+            <title>A Voyage for Madmen</title>
+            <author>Peter Nichols</author>
+        </book>
+    </books>
+    <books genre="Nonfiction">
+        <book>
+            <title>Going Infinite</title>
+            <author>Michael Lewis</author>
+        </book>
+        <book>
+            <title>Freakonomics</title>
+            <author>Steven Levitt</author>
+        </book>
+        <book>
+            <title>Sapiens: A Brief History of Humankind</title>
+            <author>Yuval Noah Harari</author>
+        </book>
+        <book>
+            <title>Into Thin Air</title>
+            <author>Jon Krakauer</author>
+        </book>
+        <book>
+            <title>Thinking, Fast and Slow</title>
+            <author>Daniel Kahneman</author>
+        </book>
+    </books>
+    <books genre="Historical">
+        <book>
+            <title>Stone Blind</title>
+            <author>Natalie Haynes</author>
+        </book>
+        <book>
+            <title>Sparrow</title>
+            <author>James Hynes</author>
+        </book>
+        <book>
+            <title>The Armour of Light</title>
+            <author>Ken Follett</author>
+        </book>
+        <book>
+            <title>The Square of Sevens</title>
+            <author>Laura Shepherd Robinson</author>
+        </book>
+        <book>
+            <title>Devotion</title>
+            <author>Hannah Kent</author>
+        </book>
+    </books>
+    <books genre="Dystopian">
+        <book>
+            <title>The Hunger Games</title>
+            <author>Suzanne Collins</author>
+        </book>
+        <book>
+            <title>The Handmaid's Tale</title>
+            <author>Margaret Atwood</author>
+        </book>
+        <book>
+            <title>The Time Machine</title>
+            <author>H. G. Wells</author>
+        </book>
+        <book>
+            <title>A Clockwork Orange</title>
+            <author>George Orwell</author>
+        </book>
+        <book>
+            <title>Animal Farm</title>
+            <author>George Orwell</author>
+        </book>
+    </books>
+    <books genre="Bildungsroman">
+        <book>
+            <title>To Kill a Mockingbird</title>
+            <author>Harper Lee</author>
+        </book>
+        <book>
+            <title>Jane Eyre</title>
+            <author>Charlotte BrontÃ«</author>
+        </book>
+        <book>
+            <title>Great Expectations</title>
+            <author>Charles Dickens</author>
+        </book>
+        <book>
+            <title>Norwegian Wood</title>
+            <author>Haruki Murakami</author>
+        </book>
+        <book>
+            <title>The Black Flamingo</title>
+            <author>Dean Atta</author>
+        </book>
+    </books>
+    <books genre="Memoir">
+        <book>
+            <title>The Glass Castle</title>
+            <author>Jeannette Walls</author>
+        </book>
+        <book>
+            <title>Becoming</title>
+            <author>Michelle Obama</author>
+        </book>
+        <book>
+            <title>H is for Hawk</title>
+            <author>Helen Macdonald</author>
+        </book>
+        <book>
+            <title>Know My Name</title>
+            <author>Chanel Miller</author>
+        </book>
+        <book>
+            <title>Night</title>
+            <author>Elie Wiesel</author>
+        </book>
+    </books>
+</bookList>
