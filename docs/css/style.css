@@ -10,22 +10,28 @@ article {
   margin-right: 10vw; 
 }
 {
-<ul id="navigation">
-<li><a href="index.html">Index</a></li>
-<li><a href="dataset.html">Dataset</a></li>
-<li><a href="people.html">People</a></li>
-<li><a href="algorithm.html">Algorithm</a></li>
-  list-style-type: none;
-  display: inline-block;
-    margin-left: 0;
-    padding-left: 0;
-    background: #FFC0CB;
-    display: inline-block;
-    text-decoration: none;
+  <ul id="navigation">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="dataset.html">Dataset</a></li>
+  <li><a href="people.html">People/a></li>'
+  <li><a href="algorithm.html">Algorithm/a></li>'
+  ul#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8bcc35;
+    float: left;
+    display: block;
     color: black;
+    text-align: center;
     padding: 14px 16px;
-   background-color: #a2ed3e;
-  } 
+    text-decoration: none;
+    a:hover {
+      background-color: #a2ed3e;
+  }  
+}
+  
 h1 {
   font-size: 48px; 
 }
