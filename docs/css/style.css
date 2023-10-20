@@ -10,22 +10,32 @@ article {
   margin-right: 10vw; 
 }
 {
-  <ul id="navigation">
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #8bcc35;
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
   <li><a href="index.html">Home</a></li>
   <li><a href="dataset.html">Dataset</a></li>
   <li><a href="people.html">People/a></li>'
-  }  
+}
+  ul#navigation { 
+    margin-left: 0;
+    padding-left: 0;
+    background: #8bcc35;
+  }
+  
+  ul#navigation li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  ul#navigation li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+  }
+  
+  ul#navigation li a:hover {
+    background-color: #a2ed3e;
+  }
+  
 }
   
 h1 {
