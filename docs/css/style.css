@@ -10,7 +10,16 @@ article {
   margin-right: 10vw; 
 }
 <html>
-<head>
+<head></head>
+<body>
+    <ul class="horizontal-menu">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="dataset.html">Dataset</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="algorithm.html">Algorithm</a></li>
+    </ul>
+</body>
+</html>
     <style>
         ul {
             list-style: none;
@@ -39,16 +48,6 @@ article {
             background-color: #555; 
         }
     </style>
-</head>
-<body>
-    <ul class="horizontal-menu">
-        <li><a href="index.html">Index</a></li>
-        <li><a href="dataset.html">Dataset</a></li>
-        <li><a href="people.html">People</a></li>
-        <li><a href="algorithm.html">Algorithm</a></li>
-    </ul>
-</body>
-</html>
   
 h1 {
   font-size: 48px; 
