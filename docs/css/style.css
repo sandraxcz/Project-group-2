@@ -19,26 +19,12 @@ article {
   display: inline-block;
     margin-left: 0;
     padding-left: 0;
-    background: #FFC0CB
-
-    }
-    <ul id="navigation">
-                <li><a href="index.html">Index</a></li>
-                <li><a href="dataset.html">Dataset</a></li>
-                <li><a href="people.html">People</a></li>
-                <li><a href="algorithm.html">Algorithm</a></li> {
-      display: inline-block;
-      text-decoration: none;
-      color: black;
-      padding: 14px 16px;
-      }
-      
-      <ul id="navigation">
-      <li><a href="index.html">Index</a></li>
-      <li><a href="dataset.html">Dataset</a></li>
-      <li><a href="people.html">People</a></li>
-      <li><a href="algorithm.html">Algorithm</a></li>{
-  background-color: #a2ed3e;
+    background: #FFC0CB;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+   background-color: #a2ed3e;
   } 
 h1 {
   font-size: 48px; 
