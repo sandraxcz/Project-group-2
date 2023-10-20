@@ -9,74 +9,46 @@ article {
   margin-left: 10vw; 
   margin-right: 10vw; 
 }
-<ul>ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {<li><a href="index.html">Index</a></li>
-  <li><a href="dataset.htlm">Dataset</a></li>
-  <li><a href="people.html">People</a></li>
-  <li><a href="algorithm.html">Algortihm</a></li>
-  float: left;
-}
-
-li a ul#navigation { <li><a href="index.html">Index</a></li>
-  <li><a href="dataset.html">Dataset</a></li>
-  <li><a href="people.html">People</a></li>
-  <li><a href="algorithm.html">Algorithm</a></li>
-  body{
-    margin: 0;
-    min-height: 300px;
-}
-
-nav{
-    width: 100%;
-    float: left;
-}
-
-.menu{
-    margin: 0;
-    padding: 8px;
-    height: 100%;
-    background-color: #334a94;
-}
-
-.menu li{
-    display: inline;
-}
-
-.button{
-    font-family: Arial;
-    font-size: 1em;
-    font-style: none;
-    color: #ffffff;
-    padding: 8px;
-    text-decoration: none;
-}
-
-.button:link{
-    background-color: #334a94;
-    color: #ffffff;
-}
-
-.button:hover{
-    background-color: #786ed4;
-}
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
- x
+<html>
+<head>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+      
+        ul.horizontal-menu {
+            display: flex;
+            background-color: #333; 
+        }
+        
+        ul.horizontal-menu li {
+            flex: 1;
+            text-align: center;
+        }
+        
+        ul.horizontal-menu li a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px; 
+        }
+        
+        ul.horizontal-menu li a:hover {
+            background-color: #555; 
+        }
+    </style>
+</head>
+<body>
+    <ul class="horizontal-menu">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="dataset.html">Dataset</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="algorithm.html">Algorithm</a></li>
+    </ul>
+</body>
+</html>
   
 h1 {
   font-size: 48px; 
