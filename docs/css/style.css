@@ -11,12 +11,7 @@ article {
 }
 {
   <ul id="navigation">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="dataset.html">Dataset</a></li>
-  <li><a href="people.html">People/a></li>'
-  <li><a href="algorithm.html">Algorithm/a></li>'
-  ul#navigation {
-    list-style-type: none;
+  list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -27,8 +22,9 @@ article {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    a:hover {
-      background-color: #a2ed3e;
+  <li><a href="index.html">Home</a></li>
+  <li><a href="dataset.html">Dataset</a></li>
+  <li><a href="people.html">People/a></li>'
   }  
 }
   
