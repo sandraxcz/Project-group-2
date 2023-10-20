@@ -9,15 +9,35 @@ article {
   margin-left: 10vw; 
   margin-right: 10vw; 
 }
-<ul>
-  <li><a href="index.html">Index</a></li>
+<ul>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {<li><a href="index.html">Index</a></li>
   <li><a href="dataset.htlm">Dataset</a></li>
   <li><a href="people.html">People</a></li>
   <li><a href="algorithm.html">Algortihm</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
-</ul>
+  float: left;
 }
 
+li a {<li><a href="index.html">Index</a></li>
+  <li><a href="dataset.htlm">Dataset</a></li>
+  <li><a href="people.html">People</a></li>
+  <li><a href="algorithm.html">Algortihm</a></li>
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 a {
   display: block;
   padding: 8px;
