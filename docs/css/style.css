@@ -9,10 +9,14 @@ article {
   margin-left: 10vw; 
   margin-right: 10vw; 
 }
-#navigation li {
+<ul id="navigation">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="dataset.html">Dataset</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="algorithm.html">Algorithm</a></li>
+<ul#navigation 
   list-style-type: none;
   display: inline;
-  }
   ul#navigation { 
     margin-left: 0;
     padding-left: 0;
