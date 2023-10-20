@@ -9,34 +9,21 @@ article {
   margin-left: 10vw; 
   margin-right: 10vw; 
 }
-{
-  <li><a href="index.html">Home</a></li>
-  <li><a href="dataset.html">Dataset</a></li>
-  <li><a href="people.html">People/a></li>'
+<ul>
+  <li><a href="index.html">Index</a></li>
+  <li><a href="dataset.htlm">Dataset</a></li>
+  <li><a href="people.html">People</a></li>
+  <li><a href="algorithm.html">Algortihm</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
 }
-  ul#navigation { 
-    margin-left: 0;
-    padding-left: 0;
-    background: #8bcc35;
-  }
-  
-  ul#navigation li {
-    list-style-type: none;
-    display: inline;
-  }
-  
-  ul#navigation li a {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 14px 16px;
-  }
-  
-  ul#navigation li a:hover {
-    background-color: #a2ed3e;
-  }
-  
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
+ x
   
 h1 {
   font-size: 48px; 
