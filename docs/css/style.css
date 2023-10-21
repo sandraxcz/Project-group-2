@@ -20,17 +20,13 @@ article {
 <ul#navigation li {
   list-style-type: none;
   display: inline;
-  }>
-  <ul#navigation {  /* rule for the element itself */
     margin-left: 0;
-    padding-left: 0;
-    background: #8bcc35;>
-    }
-    <ul#navigation li {
-      list-style-type: none;
-      display: inline;
-      }>
-      <ul#navigation li a:hover {
+    padding-left: 0;}
+    <ul#navigation li {background: #8bcc35;
+    list-style-type: none;
+    display: inline;
+}
+      <ul#navigation li a:hover{
         background-color: #a2ed3e;
         } 
     </ul>
