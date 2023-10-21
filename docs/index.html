@@ -15,22 +15,26 @@
                 <li><a href="dataset.html">Dataset</a></li>
                 <li><a href="people.html">People</a></li>
                 <li><a href="algorithm.html">Algorithm</a></li>
-                <ul#navigation li {
-                    list-style-type: none;
-                    display: inline;
-                    }
-                    ul#navigation {  /* rule for the element itself */
-                      margin-left: 0;
-                      padding-left: 0;
-                      background: #8bcc35;></ul>
-                      <ul#navigation li {
-                        list-style-type: none;
-                        display: inline;
+                <style>
+                    <ul#navigation li {
+                      list-style-type: none;
+                      display: inline;
+                      }
+                      ul#navigation {  /* rule for the element itself */
+                        margin-left: 0;
+                        padding-left: 0;
+                        background: #cc35a6;
                         }
-                        }
-                        ul#navigation li a:hover {
-                          background-color: #a2ed3e;}></ul>
-        <main>
+                        ul#navigation li a { /* rule for the a-element */
+                          display: inline-block;
+                          text-decoration: none;
+                          color: black;
+                          padding: 14px 16px;
+                          }
+                          ul#navigation li a:hover {
+                        background-color: #a2ed3e;
+                      } 
+                    </style>
             <article>
                 <h1>Home</h1>
                 <img src="img/datalogicalthinking-zombiebrains.png" class="course-logo" alt="Datalogical Thinking Logo."/>
