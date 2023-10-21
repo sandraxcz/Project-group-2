@@ -12,53 +12,27 @@ article {
 <html>
 <head></head>
 <body>
-<ul#navigation li {
-  list-style-type: none;
-  display: inline;
-  }
-  ul#navigation {  /* rule for the element itself */
-    margin-left: 0;
-    padding-left: 0;
-    background: #8bcc35;
-    }
-    ul#navigation li a { /* rule for the a-element */
-      display: inline-block;
-      text-decoration: none;
-      color: black;
-      padding: 14px 16px;
-      }
-      ul#navigation li a:hover {
-    background-color: #a2ed3e;
-  } 
 </body>
 </html>
     <style>
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+    <ul#navigation li {
+      list-style-type: none;
+      display: inline;
+      }
+      ul#navigation {  /* rule for the element itself */
+        margin-left: 0;
+        padding-left: 0;
+        background: #8bcc35;
         }
-      
-        ul.horizontal-menu {
-            display: flex;
-            background-color: #333; 
-        }
-        
-        ul.horizontal-menu li {
-            flex: 1;
-            text-align: center;
-        }
-        
-        ul.horizontal-menu li a {
-            display: block;
-            text-decoration: none;
-            color: white;
-            padding: 10px; 
-        }
-        
-        ul.horizontal-menu li a:hover {
-            background-color: #555; 
-        }
+        ul#navigation li a { /* rule for the a-element */
+          display: inline-block;
+          text-decoration: none;
+          color: black;
+          padding: 14px 16px;
+          }
+          ul#navigation li a:hover {
+        background-color: #a2ed3e;
+      } 
     </style>
   
 h1 {
