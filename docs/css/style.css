@@ -26,11 +26,10 @@ article {
     padding-left: 0;
     background: #8bcc35;
     }
-    ul#navigation li a { /* rule for the a-element */
-      display: inline-block;
-      text-decoration: none;
-      color: black;
-      padding: 14px 16px;
+    #navigation li {
+      list-style-type: none;
+      display: inline;
+      }
       }
       ul#navigation li a:hover {
         background-color: #a2ed3e;
