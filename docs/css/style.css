@@ -1,15 +1,20 @@
 /* Feel free to change me and make me your own! */
 
 body {
-  background-color: #7ae5ef; 
-  font-family: Georgia, serif; 
+  background-color: #e888e9; 
+  font-family: "Times New Roman", Times, serif;
 }
 
 article {
   margin-left: 10vw; 
   margin-right: 10vw; 
 }
-
+<html>
+<head></head>
+<body>
+</body>
+</html>
+  
 h1 {
   font-size: 48px; 
 }

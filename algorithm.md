@@ -1,6 +1,5 @@
 PROGRAM ChooseBookAtRandom
 
-```
 WRITE "Welcome to Group 2's book recommendation system!"
 WRITE "Please choose a number for the genre that you want to read:
 WRITE "1. Fantasy, 2. Science fiction. 3. Mystery, 4. Romance, 5. Horror, 6. Adventure, 7. Nonfiction. 8. Historical, 9. Dystopian, 10. Bildungsroman, 11. Memoir"
@@ -30,5 +29,3 @@ IF (chsoenGenrenumber is 11) THEN
     chosenGenre = "Memoir"
 ENDIF
 
-//done with the "if" condition, and now we gotta figure out what comes next. i think we need to come up with a way to write when the system chooses the book, think i saw the teacher using random idex when he showed python, so maybe something similar here?
-```
