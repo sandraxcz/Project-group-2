@@ -28,4 +28,5 @@ IF (chosenGenrenumber is 10) THEN
     chosenGenre = "Bildungsroman"
 IF (chsoenGenrenumber is 11) THEN
     chosenGenre = "Memoir"
+ENDIF
 ```
