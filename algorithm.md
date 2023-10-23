@@ -29,4 +29,6 @@ IF (chosenGenrenumber is 10) THEN
 IF (chsoenGenrenumber is 11) THEN
     chosenGenre = "Memoir"
 ENDIF
+
+//done with the "if" condition, and now we gotta figure out what comes next. i think we need to come up with a way to write when the system chooses the book, think i saw the teacher using random idex when he showed python, so maybe something similar here?
 ```
