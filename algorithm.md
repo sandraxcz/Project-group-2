@@ -29,3 +29,15 @@ IF (chsoenGenrenumber is 11) THEN
     chosenGenre = "Memoir"
 ENDIF
 
+WRITE "Do you want more random recommendations in this genre?"
+IF (Yes) THEN
+    WRITE "How many recommendations do you want?"
+    WRITE "Enter a number of recommendations you want"
+    READ num
+ELSE IF (No) THEN
+    WRITE "Thank you for using our recommendation system!"
+
+ENDIF
+
+
+    
