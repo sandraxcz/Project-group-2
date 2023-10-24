@@ -17,11 +17,13 @@ article {
 </html>
   
 h1 {
-  font-size: 48px; 
+  font-size: 48px;
+  font-weight: normal; 
 }
 
 h2 {
   font-size: 36px; 
+  font-weight: normal;
 }
 h3 {
   font-weight: normal;
