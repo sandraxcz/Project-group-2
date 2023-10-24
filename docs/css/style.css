@@ -12,10 +12,6 @@ article {
 <html>
 <head></head>
 <body>
-
-</body>
-</html>
-  
 h1 {
   font-size: 48px;
   font-weight: normal; 
@@ -37,14 +33,18 @@ p {
 }
 
 ul {
+  font-weight:normal;
   font-size: 20px; 
   list-style-type: square; 
 }
 
 code {
+ font-weight:normal;
  font-family: 'Courier New', monospace; 
 }
-
+</body>
+</html>
+  
 footer{
   text-align: center; 
 }
