@@ -1,19 +1,16 @@
- 
+
 body {
   background-color: #e888e9; 
-  font-family: "Times New Roman", Times, serif; 
-  
-  article {
-  margin-left: 10vw; 
-  margin-right: 10vw; }
+  font-family: "Times New Roman", Times, serif;
+
 h1 {
-  font-size: 48px;
-  font-weight: normal; 
-}
+    font-size: 30px; 
+    font-weight: normal;
+  }
 
 h2 {
   font-size: 30px; 
-  font-weight: normal;
+  font-weight: normal;}
 }
 h3 {
   font-weight:normal;
@@ -54,4 +51,4 @@ img.copyright_logo {
 
 .course-logo {
   width: 35vw;
-} }
+}
