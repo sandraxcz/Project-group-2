@@ -3,11 +3,9 @@
 <head></head>
 <body>
 body {
-  ul#navigation li {
-    list-style-type: none;
-    display:inline;
-    }
-    ul#navigation {  /* rule for the element itself */
+   ul#navigation li {  /* rule for the element itself */
+      list-style-type: none;
+      display:inline
       margin-left: 0;
       padding-left: 0;
       background: #cc35a6;
@@ -18,10 +16,8 @@ body {
         color: black;
         padding: 14px 16px;
         }
-        ul#navigation li a:hover {
+        ul#navigation li a:hover }
       background-color: #a2ed3e;
-  background-color: #e888e9; 
-  font-family: "Times New Roman", Times, serif;}
 article {
   margin-left: 10vw; 
   margin-right: 10vw; }
