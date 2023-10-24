@@ -1,17 +1,13 @@
-/* Feel free to change me and make me your own! */
-
-body {
-  background-color: #e888e9; 
-  font-family: "Times New Roman", Times, serif;
-
-
-article {
-  margin-left: 10vw; 
-  margin-right: 10vw; 
-}
+ 
 <html>
 <head></head>
 <body>
+body {
+  background-color: #e888e9; 
+  font-family: "Times New Roman", Times, serif;}
+article {
+  margin-left: 10vw; 
+  margin-right: 10vw; }
 h1 {
   font-size: 48px;
   font-weight: normal; 
@@ -42,9 +38,6 @@ code {
  font-weight:normal;
  font-family: 'Courier New', monospace; 
 }
-</body>
-</html>
-  
 footer{
   text-align: center; 
 }
@@ -64,3 +57,6 @@ img.copyright_logo {
 .course-logo {
   width: 35vw;
 }
+</body>
+</html>
+  
