@@ -3,7 +3,7 @@
 body {
   background-color: #e888e9; 
   font-family: "Times New Roman", Times, serif;
-}
+
 
 article {
   margin-left: 10vw; 
@@ -12,11 +12,6 @@ article {
 <html>
 <head></head>
 <body>
-<h3 style"{
-font-weight: normal;
-text-align: justify;
-font-family: "Times New Roman", Times, serif;
-}
 
 </body>
 </html>
@@ -28,6 +23,11 @@ h1 {
 h2 {
   font-size: 36px; 
 }
+h3 {
+  font-weight: normal;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  }
 
 p {
   font-size: 20px; 
