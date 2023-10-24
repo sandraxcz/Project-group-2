@@ -1,55 +1,45 @@
  
-<html>3
-<head></head>
-<body>
-
+body {
+  background-color: #e888e9; 
+  font-family: "Times New Roman", Times, serif;
 article {
-  background-color: #a2ed3e;
   margin-left: 10vw; 
   margin-right: 10vw; }
 h1 {
-  background-color: #a2ed3e;
   font-size: 48px;
   font-weight: normal; 
 }
 
 h2 {
-  background-color: #a2ed3e;
   font-size: 30px; 
   font-weight: normal;
 }
 h3 {
-  background-color: #a2ed3e;
   font-weight:normal;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   }
 
 p {
-  background-color: #a2ed3e;
   font-weight:normal;
   font-size: 20px; 
 }
 
 ul {
-  background-color: #a2ed3e;
   font-weight:normal;
   font-size: 20px; 
   list-style-type: square; 
 }
 
-code {
- background-color: #a2ed3e;
+code { 
  font-weight:normal;
  font-family: 'Courier New', monospace; 
 }
 footer{
-  background-color: #a2ed3e;
   text-align: center; 
 }
 
 .copyright {
-  background-color: #a2ed3e;
   border-top: 1px solid black;
   display: flex;
   margin: auto;
@@ -64,6 +54,3 @@ img.copyright_logo {
 .course-logo {
   width: 35vw;
 }
-</body>
-</html>
-  
