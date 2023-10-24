@@ -12,10 +12,11 @@ article {
 <html>
 <head></head>
 <body>
-<h3> style="font-weight: normal;
+<h3 style"{
+font-weight: normal;
 text-align: justify;
 font-family: "Times New Roman", Times, serif;
-</h3>
+}
 
 </body>
 </html>
