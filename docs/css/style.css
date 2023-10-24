@@ -1,61 +1,55 @@
  
-<html>
+<html>3
 <head></head>
 <body>
-body {
-   ul#navigation li {  /* rule for the element itself */
-      list-style-type: none;
-      display:inline
-      margin-left: 0;
-      padding-left: 0;
-      background: #cc35a6;
-      }
-      ul#navigation li a { /* rule for the a-element */
-        display: inline-block;
-        text-decoration: none;
-        color: black;
-        padding: 14px 16px;
-        }
-        ul#navigation li a:hover }
-      background-color: #a2ed3e;
+
 article {
+  background-color: #a2ed3e;
   margin-left: 10vw; 
   margin-right: 10vw; }
 h1 {
+  background-color: #a2ed3e;
   font-size: 48px;
   font-weight: normal; 
 }
 
 h2 {
+  background-color: #a2ed3e;
   font-size: 30px; 
   font-weight: normal;
 }
 h3 {
+  background-color: #a2ed3e;
   font-weight:normal;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   }
 
 p {
+  background-color: #a2ed3e;
   font-weight:normal;
   font-size: 20px; 
 }
 
 ul {
+  background-color: #a2ed3e;
   font-weight:normal;
   font-size: 20px; 
   list-style-type: square; 
 }
 
 code {
+ background-color: #a2ed3e;
  font-weight:normal;
  font-family: 'Courier New', monospace; 
 }
 footer{
+  background-color: #a2ed3e;
   text-align: center; 
 }
 
 .copyright {
+  background-color: #a2ed3e;
   border-top: 1px solid black;
   display: flex;
   margin: auto;
