@@ -1,4 +1,4 @@
-PROGRAM ChooseBookAtRandom
+PROGRAM ChooseBookAtRandom:
 
 ```
 WRITE "Welcome to Group 2's book recommendation system!"
@@ -34,7 +34,7 @@ ENDIF
 
 WHILE user wants book recommendation
 
-    Set bookList to booksFromChosenGenre
+    Set bookList to bookFromChosenGenre
     Set numberOfBooksGenre to quantityOfbookList
 
     IF numberOfBooksGenre > 0 THEN
@@ -45,14 +45,16 @@ WHILE user wants book recommendation
     WRITE "Do you want more random recommendations in this genre? (Yes/No)"
     READ userAnswer
 
-    IF (Yes) THEN
-        WRITE "How many recommendations do you want (up to 5)?"
-    ELSE IF (No) THEN
-        EXIT WHILE
+    IF (userAnswer is No) THEN
+        EXITWHILE
     ENDIF
 
+    WRITE "How many recommendations do you want (up to 5)?"
+    READ num
+
+ENDWHILE
+
 WRITE "Thank you for using our recommendation system!"
-
-
 ```
-    
+
+END.
