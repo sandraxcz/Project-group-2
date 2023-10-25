@@ -8,27 +8,31 @@ READ chosenGenreNumber
 
 IF (chosenGenreNumber is 1) THEN
     chosenGenre = "Fantasy"
-IF (chosenGenreNumber is 2) THEN
+ELSE IF (chosenGenreNumber is 2) THEN
     chosenGenre = "Science Fiction"
-IF (chosenGenreNumber is 3) THEN
+ELSE IF (chosenGenreNumber is 3) THEN
     chosenGenre = "Mystery"
-IF (chosenGenreNumber is 4) THEN
+ELSE IF (chosenGenreNumber is 4) THEN
     chosenGenre = "Romance"
-IF (chosenGenreNumer is 5) THEN
+ELSE IF (chosenGenreNumer is 5) THEN
     chosenGenre = "Horror"
-IF (chosenGenreNumber is 6) THEN
+ELSE IF (chosenGenreNumber is 6) THEN
     chosenGenre = "Adventure"
-IF (chosenGenreNumber is 7) THEN
+ELSE IF (chosenGenreNumber is 7) THEN
     chosenGenre = "Nonfiction"
-IF (chosenGenreNumber is 8) THEN
+ELSE IF (chosenGenreNumber is 8) THEN
     chosenGenre = "Historical"
-IF (chosenGenreNumber is 9) THEN
+ELSE IF (chosenGenreNumber is 9) THEN
     chosenGenre = "Dystopian"
-IF (chosenGenrenumber is 10) THEN
+ELSE IF (chosenGenrenumber is 10) THEN
     chosenGenre = "Bildungsroman"
-IF (chosenGenrenumber is 11) THEN
+ELSE IF (chosenGenrenumber is 11) THEN
     chosenGenre = "Memoir"
+ELSE
+    WRITE "Please enter a valid number from 1-11."
 ENDIF
+
+WRITE "Here is a book from (chosenGenre)!"
 
 WRITE "Do you want more random recommendations in this genre?"
 
