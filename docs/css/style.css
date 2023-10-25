@@ -1,41 +1,38 @@
-/* Feel free to change me and make me your own! */
 
 body {
   background-color: #e888e9; 
   font-family: "Times New Roman", Times, serif;
-}
 
-article {
-  margin-left: 10vw; 
-  margin-right: 10vw; 
-}
-<html>
-<head></head>
-<body>
-</body>
-</html>
-  
 h1 {
-  font-size: 48px; 
-}
+    font-size: 30px; 
+    font-weight: normal;
+  }
 
 h2 {
-  font-size: 36px; 
+  font-size: 30px; 
+  font-weight: normal;}
 }
+h3 {
+  font-weight:normal;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  }
 
 p {
+  font-weight:normal;
   font-size: 20px; 
 }
 
 ul {
+  font-weight:normal;
   font-size: 20px; 
   list-style-type: square; 
 }
 
-code {
+code { 
+ font-weight:normal;
  font-family: 'Courier New', monospace; 
 }
-
 footer{
   text-align: center; 
 }
