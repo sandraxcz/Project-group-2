@@ -40,7 +40,8 @@ IF numberOfBooksGenre > 0 THEN
     WRITE "Here is a book for you!" chosenBook
 ENDIF
 
-WRITE "Do you want more random recommendations in this genre?"
+WRITE "Do you want more random recommendations in this genre? (Yes/No)"
+READ userAnswer
 
 IF (Yes) THEN
     WRITE "How many recommendations do you want?"
