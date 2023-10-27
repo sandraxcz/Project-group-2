@@ -34,6 +34,7 @@ ENDIF
 
 WHILE user wants book recommendation
 
+    Set bookListURL to https://github.com/sandraxcz/Project-group-2/blob/main/data/xml-data.xml 
     Set bookList to bookFromChosenGenre
     Set numberOfBooksGenre to quantityOfbookList
 
