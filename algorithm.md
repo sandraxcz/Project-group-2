@@ -53,9 +53,13 @@ WHILE user wants book recommendation
     WRITE "How many recommendations do you want (up to 5)?"
     READ num
 
+patch-2
+ENDIF
+
 ENDWHILE
 
 WRITE "Thank you for using our recommendation system!"
+main
 ```
 
 END.
