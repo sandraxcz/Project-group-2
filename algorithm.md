@@ -34,9 +34,10 @@ ENDIF
 
 WHILE user wants book recommendation
 
-    Set bookListURL to https://github.com/sandraxcz/Project-group-2/blob/main/data/xml-data.xml 
-    Set bookList to bookFromChosenGenre
-    Set numberOfBooksGenre to quantityOfbookList
+    Set bookListPath to 'Project-group-2/data/xml-data.xml'
+    Set bookList to importXMLdata(bookListPath)
+    Set bookFromChosenGenre to filterBooksByGenre(bookList)
+    Set numberOfBooksGenre to quantityOfbooks(booksFromChosenGenre)
 
     IF numberOfBooksGenre > 0 THEN
         createRandomChoice from bookList
@@ -52,14 +53,11 @@ WHILE user wants book recommendation
 
     WRITE "How many recommendations do you want (up to 5)?"
     READ num
-
-patch-2
-ENDIF
+    ENDIF
 
 ENDWHILE
 
 WRITE "Thank you for using our recommendation system!"
-main
 ```
 
 END.
