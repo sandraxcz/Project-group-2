@@ -14,7 +14,7 @@ ELSE IF (chosenGenreNumber is 3) THEN
     chosenGenre = "Mystery"
 ELSE IF (chosenGenreNumber is 4) THEN
     chosenGenre = "Romance"
-ELSE IF (chosenGenreNumer is 5) THEN
+ELSE IF (chosenGenreNumber is 5) THEN
     chosenGenre = "Horror"
 ELSE IF (chosenGenreNumber is 6) THEN
     chosenGenre = "Adventure"
@@ -37,10 +37,10 @@ WHILE user wants book recommendation
     Set bookListPath to 'Project-group-2/data/xml-data.xml'
     Set bookList to importXMLdata(bookListPath)
     Set bookFromChosenGenre to filterBooksByGenre(bookList)
-    Set numberOfBooksGenre to quantityOfbooks(booksFromChosenGenre)
+    Set numberOfBooksGenre to quantityOfbooks(bookFromChosenGenre)
 
     IF numberOfBooksGenre > 0 THEN
-        createRandomChoice from bookList
+        set chosenBook to createRandomChoice(bookFromChosenGenre)
         WRITE "Here is a book for you!" chosenBook
     ENDIF
 
@@ -53,7 +53,6 @@ WHILE user wants book recommendation
 
     WRITE "How many recommendations do you want (up to 5)?"
     READ num
-    ENDIF
 
 ENDWHILE
 
