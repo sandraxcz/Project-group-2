@@ -3,11 +3,10 @@ Group members:
 Camille, Magdalena, and Sandra 
 
 ## About the Assignment
-The general idea for this assignment is that you work together in a group to curate a dataset, and design an algorithm to process that dataset in a meaningful way. You will publish both your dataset and your algorithm design on GitHub, alongside a simple website with some basic information on the project, dataset and algorithm, that will be hosted with GitHub Pages.
+The general idea for this assignment is that the groups work together to curate a dataset, and design an algorithm to process that dataset in a meaningful way. THereafter, publishing both the dataset and algorithm design here on GitHub, alongside a simple website with some basic information on the project, dataset and algorithm, that will be hosted with GitHub Pages.
 
 ### Step 1 of the Assignment: Conceptualisation (https://github.com/sandraxcz/Project-group-2/issues/4) 
-The first step for this project would be to brainstorm with your teammates to decide what kind of data you would be interested in, and what you would like to be able to do with that data. This includes:
-
+The first step for this project was to brainstorm and decide what kind of data is of interest, and what we would like to do with that data. This includes:
 1. Finding or conceptualising an interesting dataset
 2. Defining a specific problem or need for the data, that can be resolved algorithmically
 3. Modelling (or fine-tuning the pre-existing model of) your data in a way that it becomes relevant for your algorithm
