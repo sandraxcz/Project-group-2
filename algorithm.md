@@ -36,7 +36,7 @@ WHILE user wants book recommendation
 
     Set bookListPath to 'Project-group-2/data/xml-data.xml'
     Set bookList to importXMLdata(bookListPath)
-    Set bookFromChosenGenre to filterBooksByGenre(bookList)
+    Set bookFromChosenGenre to filterBooksByGenre(bookList, chosenGenre)
     Set numberOfBooksGenre to quantityOfbooks(bookFromChosenGenre)
 
     IF numberOfBooksGenre > 0 THEN
