@@ -35,7 +35,7 @@ Now that you have your dataset, you can start to process it. This is where your 
 ### Step 4 of the Assignment: Design a Small Website for Your Project (https://github.com/sandraxcz/Project-group-2/issues/7) 
 Using HTML and CSS, design a small website, distributed over a few relevant hyperlinked web pages, to contextualise your algorithm. This website should contain some general information about the project/assignment, a description of the dataset, a description of the algorithm, and more information about your team, and the division of labor.
 
-### Step 5 of the Assignment: Publish Your Dataset, Algorithm, and Website on GitHub** (https://github.com/sandraxcz/Project-group-2/issues/8)
+### Step 5 of the Assignment: Publish Your Dataset, Algorithm, and Website on GitHub (https://github.com/sandraxcz/Project-group-2/issues/8)
 Bundle all of the work you did for Steps 2 through 4 together in a single repository that you post on GitHub. A template for this repository will be provided during the class on GitHub. Make your website publicly accessible by publishing it using GitHub Pages. Information on how to do this will also be provided during the class on GitHub.
 
 ## About the Course
