@@ -39,7 +39,7 @@ WHILE user wants book recommendation
     Set bookFromChosenGenre to filterBooksByGenre(bookList, chosenGenre)
     Set numberOfBooksGenre to quantityOfbooks(bookFromChosenGenre)
 
-    IF numberOfBooksGenre > 0 THEN
+    IF (numberOfBooksGenre > 0) THEN
         set chosenBook to createRandomChoice(bookFromChosenGenre)
         WRITE "Here is a book for you!" chosenBook
     ENDIF
